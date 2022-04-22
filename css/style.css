@@ -1,0 +1,670 @@
+body {
+    background-color: #f5f5f5;
+}
+nav {
+    background-color: black !important;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+    color: white !important;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-item .active::after {
+    content: "";
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 27px;
+}
+
+.nav-item::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 27px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.bigger::after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    left: 27px;
+    transition: width 0.5s, height 0.5s;
+}
+
+.nav-item:hover::after {
+    width: 40px;
+    height: 2px;
+}
+
+.bigger:hover::after {
+    width: 80px;
+    height: 2px;
+}
+ .to-home{
+     bottom: 2%;
+     right: 2%;
+ }
+#home .home-content {
+    background-image: url("../images/intro-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.layer-home 
+{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opa {
+    width: 100%;
+    height: 100%;
+}
+
+.opa h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: 500;
+    position: relative;
+}
+
+.opa h1::after {
+    content: "";
+    color: white;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-top: 40px;
+    transform: translatex(-50%);
+    animation-name: move;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+/* Designer Developer Freelancer Photographer */
+
+@keyframes move {
+    0% {
+        content: "D|";
+    }
+    1% {
+        content: "De|";
+    }
+    2% {
+        content: "Des|";
+    }
+    3% {
+        content: "Desi|";
+    }
+    4% {
+        content: "Desig|";
+    }
+    5% {
+        content: "Design|";
+    }
+    6% {
+        content: "Designe|";
+    }
+    7% {
+        content: "Designer|";
+    }
+    8% {
+        content: "Designer";
+    }
+    9% {
+        content: "Designer|";
+    }
+    10% {
+        content: "Designer";
+    }
+    11% {
+        content: "Designe|";
+    }
+    12% {
+        content: "Design|";
+    }
+    13% {
+        content: "Desig|";
+    }
+    14% {
+        content: "Desi|";
+    }
+    15% {
+        content: "Des|";
+    }
+    16% {
+        content: "De|";
+    }
+    17% {
+        content: "Dev|";
+    }
+    18% {
+        content: "Deve|";
+    }
+    19% {
+        content: "Devel|";
+    }
+    20% {
+        content: "Develo|";
+    }
+    21% {
+        content: "Develop|";
+    }
+    22% {
+        content: "Develope|";
+    }
+    23% {
+        content: "Developer|";
+    }
+    24% {
+        content: "Developer";
+    }
+    25% {
+        content: "Developer|";
+    }
+    26% {
+        content: "Developer";
+    }
+    27% {
+        content: "Develope|";
+    }
+    28% {
+        content: "Develop|";
+    }
+    29% {
+        content: "Develo|";
+    }
+    30% {
+        content: "Devel|";
+    }
+    31% {
+        content: "Deve|";
+    }
+    32% {
+        content: "Dev|";
+    }
+    33% {
+        content: "De|";
+    }
+    34% {
+        content: "D|";
+    }
+    35% {
+        content: "|";
+    }
+    36% {
+        content: "F|";
+    }
+    37% {
+        content: "Fr|";
+    }
+    38% {
+        content: "Fre|";
+    }
+    39% {
+        content: "Free|";
+    }
+    40% {
+        content: "Freel|";
+    }
+    41% {
+        content: "Freela|";
+    }
+    42% {
+        content: "Freelan|";
+    }
+    43% {
+        content: "Freelanc|";
+    }
+    44% {
+        content: "Freelance|";
+    }
+    45% {
+        content: "Freelancer|";
+    }
+    46% {
+        content: "Freelancer";
+    }
+    47% {
+        content: "Freelancer|";
+    }
+    48% {
+        content: "Freelancer";
+    }
+    49% {
+        content: "Freelance|";
+    }
+    50% {
+        content: "Freelanc|";
+    }
+    51% {
+        content: "Freelan|";
+    }
+    52% {
+        content: "Freela|";
+    }
+    53% {
+        content: "Freel|";
+    }
+    54% {
+        content: "Free|";
+    }
+    55% {
+        content: "Fre|";
+    }
+    56% {
+        content: "Fr|";
+    }
+    57% {
+        content: "F|";
+    }
+    58% {
+        content: "|";
+    }
+    59% {
+        content: "P|";
+    }
+    60% {
+        content: "Ph|";
+    }
+    61% {
+        content: "Pho|";
+    }
+    62% {
+        content: "Phot|";
+    }
+    63% {
+        content: "Photo|";
+    }
+    64% {
+        content: "Photog|";
+    }
+    65% {
+        content: "Photogr|";
+    }
+    66% {
+        content: "Photogra|";
+    }
+    67% {
+        content: "Photogra|";
+    }
+    68% {
+        content: "Photograp|";
+    }
+    69% {
+        content: "Photograph|";
+    }
+    70% {
+        content: "Photographe|";
+    }
+    71% {
+        content: "Photographer|";
+    }
+    72% {
+        content: "Photographer";
+    }
+    73% {
+        content: "Photographer|";
+    }
+    74% {
+        content: "Photographer";
+    }
+    75% {
+        content: "Photographe|";
+    }
+    76% {
+        content: "Photograph|";
+    }
+    77% {
+        content: "Photograp|";
+    }
+    78% {
+        content: "Photogra|";
+    }
+    79% {
+        content: "Photogr|";
+    }
+    80% {
+        content: "Photog|";
+    }
+    81% {
+        content: "Photo|";
+    }
+    82% {
+        content: "Phot|";
+    }
+    83% {
+        content: "Pho|";
+    }
+    84% {
+        content: "Pho|";
+    }
+    85% {
+        content: "Ph|";
+    }
+    86% {
+        content: "P|";
+    }
+    100% {
+        content: "|";
+    }
+}
+
+/******************About*********************/
+
+#about .container {
+    box-sizing: border-box;
+    padding: 50px;
+    background-color: white;
+    box-shadow: 0.1px 2px 5px grey !important;
+}
+
+#about .range {
+    height: 10px;
+    background-color: #cde1f8;
+}
+
+#about .range .limit1 {
+    height: 100%;
+    width: 85%;
+    background-color: #0078ff;
+}
+
+#about .range .limit2 {
+    height: 100%;
+    width: 75%;
+    background-color: #0078ff;
+}
+
+#about .range .limit3 {
+    height: 100%;
+    width: 50%;
+    background-color: #0078ff;
+}
+
+#about .range .limit4 {
+    height: 100%;
+    width: 90%;
+    background-color: #0078ff;
+}
+
+#about span {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#about .skill {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#about article h2 {
+    font-weight: 600;
+}
+
+#about article .line {
+    width: 110px;
+    height: 3px;
+    background-color: #0078ff;
+}
+
+#about article p {
+    line-height: 1.6;
+    font-size: 20px;
+}
+
+/************************Services****************************/
+
+#services .line, #PORTFOLIO .line, #blogs .blogs-content .line {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+}
+
+#services .service {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#services .service i {
+    box-sizing: border-box;
+    padding: 40px;
+    border: 10px solid #0078ff;
+    border-radius: 50%;
+    font-size: 40px;
+    transition: 0.5s;
+}
+
+#services .service:hover i {
+    border-color: #cde1f8;
+    background-color: #0078ff;
+    color: white;
+}
+
+#services .service-content {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+/************************works**************************/
+
+#works .work i {
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px solid #cde1f8;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+#works .work {
+    padding-left: 20px;
+}
+
+#works {
+    background-image: url("../images/post-3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#works .works-content {
+    width: 100%;
+    background-color: #0078ff;
+    opacity: 0.8;
+    padding: 50px;
+}
+
+/*************************Portfolio*************************/
+
+#portfolio .portfolio-work {
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+#portfolio .port {
+    box-shadow: 1px 1px 1px grey;
+}
+
+#portfolio .port-img {
+    overflow: hidden;
+}
+
+#portfolio .port-img img {
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+#portfolio .port:hover .port-img img {
+    transform: scale(1.1);
+}
+
+#portfolio .port-content {
+    padding: 20px;
+}
+
+#portfolio .port-content span {
+    color: #0078ff;
+}
+
+#portfolio .port-content i {
+    right: 5px;
+    bottom: 50%;
+    border: 2px solid #0078ff;
+    font-size: 18px;
+    color: #0078ff;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#portfolio .port-content h5 {
+    max-width: 200;
+}
+
+/************************Clients*****************************/
+
+#clients .carousel-item p {
+    max-width: 800;
+}
+
+#clients .carousel-indicators button {
+    width: 12px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+#clients .back {
+    background-color: #0078ff;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+}
+
+#clients {
+    background-image: url("../images/overlay-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*****************************Blogs******************************/
+#blogs .time img{
+width: 32px;
+height: 32px;
+border-radius: 50%;
+ } 
+#blogs .time{
+   background-color: rgba(0,0,0,.03);
+   border-top: 1px solid grey;
+}
+#blogs .time i{
+    margin-top: 5px;
+}
+#blogs .blog{
+    box-shadow: 0.1px 2px 2px grey;
+}
+#blogs .phover{
+    transition: 0.5s;
+}
+#blogs .phover:hover{
+    color:#0078ff;
+    cursor: pointer;
+}
+#blogs .travel{
+    background-color: #0078ff;
+    width: 25%;
+    left:50%; 
+    top:0;
+    transform:translate(-50%,-50%);
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+#blogs .blogger{
+    box-sizing: border-box;
+    padding: 10px;
+}
+/*****************************contact***********************************/
+#contact{
+    background-image: url("../images/overlay-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+#contact .contact-content .container{
+background-color: white;
+}
+#contact .contact-content{
+    background-color: rgba(0, 120, 255, 0.7);
+}
+#contact .contact-content .line{
+    width:20%;
+    height: 3px;
+    margin-bottom: 30px;
+    background-color: #0078ff;
+}
+#contact .contact-content button{
+    border:3px solid transparent;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#contact .contact-content button:hover{
+    border-color: #cde1f8;;
+    opacity: 0.7;
+}
+#contact .contact-content .connect i{
+ color: #0078ff;
+
+}
+#contact .contact-content .connect .social i{
+ color: black;
+ border:3px solid #0078ff;
+ border-radius: 50%;
+ padding: 20px;
+ font-size: 1.5rem;
+ margin:10px 10px 10px 0px;
+ transition: 0.5s;
+ cursor: pointer;
+}
+#contact .contact-content .connect .social i:hover{
+background-color: #0078ff;
+color: white;
+border-color: #cde1f8;
+}
+@media screen and (max-width:992px) and (min-width:768px){
+    #services .service h3{
+        font-size: 20;
+    }
+}
